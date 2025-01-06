@@ -1,10 +1,10 @@
 #!/bin/bash
 python cpca.py \
-    --output_prefix simulations/variable-delay/rpca \
-    --input simulations/variable-delay/data.txt \
+    --output_prefix simulations/static/cpca \
+    --input simulations/static/data.txt \
     --n_comps 3 \
     --file_format txt \
-    --pca_type real \
+    --pca_type complex \
     --rotate varimax \
     --recon \
     --normalize zscore \
